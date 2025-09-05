@@ -53,22 +53,16 @@ src/
 
 ---
 
-📂 Como rodar o projeto localmente
+## 👨‍💻 Como rodar o projeto localmente
 
-Clone o repositório:
+1. Clone o repositório:
 ```bash
 git clone https://github.com/Patrick-souza-silva/hangman-game.git
 cd hangman-game
-
+```
 ---
 
 ## 📬 Contato
 
 [📸 Instagram](https://www.instagram.com/_patrick.edueu_) | 
 [💼 LinkedIn](https://www.linkedin.com/in/patrick-souza-b20b50248/) | 
-
-
-
-## 👨‍💻 Como rodar o projeto localmente
-
-Este jogo foi desenvolvido como prática de lógica de programação e estrutura de dados em Java, inspirado no clássico Jogo da Forca.
