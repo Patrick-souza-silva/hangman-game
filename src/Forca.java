@@ -2,7 +2,6 @@ public class Forca {
 
     public void start() {
         System.out.println(
-                "Não mate a Inara" +
                 " +---+\n" +
                         " |   |\n" +
                         "     |\n" +

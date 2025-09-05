@@ -8,7 +8,7 @@ public class Main {
         String validate;
 
         do {
-            System.out.println("----------FORCA DA UNIPAR----------");
+            System.out.println("----------HANGMAN----------");
             System.out.println("-----------------------------------");
 
             boolean input;
@@ -33,8 +33,9 @@ public class Main {
             }
 
             int errors = 0;
+            ArrayList<Character> list = new ArrayList<>();
+
             while (errors < 6){
-                ArrayList<Character> list = new ArrayList<>();
                 Forca newForca = new Forca();
 
                 System.out.println("Letras selecionadas: "+ list);
