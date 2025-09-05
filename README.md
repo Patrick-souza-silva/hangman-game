@@ -8,6 +8,7 @@ O game é pensado para **duas pessoas**: uma define a palavra secreta e a outra 
 
 ## 🎮 Estrutura do Jogo
 Game
+```plaintext
 ├── INTRO
 │ ├── Menu inicial (start)
 │ └── Jogador define a palavra secreta
@@ -21,6 +22,7 @@ Game
 │ └── Derrota: limite de 6 erros
 └── RESTART
 └── Pergunta se deseja jogar novamente (y/n)
+```
 
 ---
 
@@ -46,10 +48,11 @@ Game
 
 ## 📂 Estrutura do Projeto
 
+```plaintext
 src/
 ├── Main.java # Lógica principal do jogo
 └── Forca.java # ASCII art da forca
-
+```
 
 ---
 
