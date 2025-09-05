@@ -58,8 +58,9 @@ src/
 Clone o repositório:
 ```bash
 git clone https://github.com/Patrick-souza-silva/hangman-game.git
-cd seu-portfolio
---
+cd hangman-game
+
+---
 
 ## 📬 Contato
 
