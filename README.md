@@ -67,5 +67,7 @@ cd hangman-game
 
 ## 📬 Contato
 
-[📸 Instagram](https://www.instagram.com/_patrick.edueu_) | 
-[💼 LinkedIn](https://www.linkedin.com/in/patrick-souza-b20b50248/) | 
+- [📸 Instagram](https://www.instagram.com/_patrick.edueu_)
+- [💼 LinkedIn](https://www.linkedin.com/in/patrick-souza-b20b50248/)
+
+  ---
