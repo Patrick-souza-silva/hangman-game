@@ -7,4 +7,67 @@ O game é pensado para **duas pessoas**: uma define a palavra secreta e a outra 
 ---
 
 ## 🎮 Estrutura do Jogo
+Game
+├── INTRO
+│ ├── Menu inicial (start)
+│ └── Jogador define a palavra secreta
+├── MAIN LOOP
+│ ├── Exibe a forca em ASCII (Forca.java)
+│ ├── Mostra letras já tentadas
+│ ├── Verifica se a letra existe na palavra
+│ └── Atualiza erros ou progresso
+├── GAME OVER
+│ ├── Vitória: palavra completada
+│ └── Derrota: limite de 6 erros
+└── RESTART
+└── Pergunta se deseja jogar novamente (y/n)
 
+---
+
+## 🚀 Funcionalidades
+
+- 📖 Palavra definida manualmente por um dos jogadores.  
+- ⌨️ Entrada de letras pelo console.  
+- 🔄 Validação de letras repetidas.  
+- 🎨 Forca em **ASCII art**, exibida a cada erro.  
+- ❌ Limite de 6 erros antes da derrota.  
+- 🔁 Opção de reiniciar o jogo após o fim.  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Java 17+**  
+- **Scanner (java.util)** para entrada de dados  
+- **ArrayList / Arrays** para manipulação de letras  
+- **Console (ASCII art)** para exibir a forca  
+
+---
+
+## 📂 Estrutura do Projeto
+
+src/
+├── Main.java # Lógica principal do jogo
+└── Forca.java # ASCII art da forca
+
+
+---
+
+📂 Como rodar o projeto localmente
+
+Clone o repositório:
+```bash
+git clone https://github.com/Patrick-souza-silva/hangman-game.git
+cd seu-portfolio
+--
+
+## 📬 Contato
+
+[📸 Instagram](https://www.instagram.com/_patrick.edueu_) | 
+[💼 LinkedIn](https://www.linkedin.com/in/patrick-souza-b20b50248/) | 
+
+
+
+## 👨‍💻 Como rodar o projeto localmente
+
+Este jogo foi desenvolvido como prática de lógica de programação e estrutura de dados em Java, inspirado no clássico Jogo da Forca.
