@@ -28,14 +28,15 @@ public class Main {
             String word = call.next();
 
             char[] state = new char[word.length()];
-            for (int i = 0; i < word.length(); i++){
-                state[i] = '_';
-            }
+//            for (int i = 0; i < word.length(); i++){
+//                state[i] = '_';
+//            }
 
             int errors = 0;
+            boolean completed = false;
             ArrayList<Character> list = new ArrayList<>();
 
-            while (errors < 6){
+            while (errors < 6 && !completed){
                 Forca newForca = new Forca();
 
                 System.out.println("Letras selecionadas: "+ list);
@@ -92,6 +93,15 @@ public class Main {
                         //Verifica se dentro da palavra na posição i o caracter é igual ao passado
                         if(word.charAt(i) == charater){
                             state[i] = charater;
+                            int contador = 0;
+                            for (int c = 0; c < word.length(); c++){
+                                if(state[c] == '\u0000'){
+                                    contador++;
+                                }
+                            }
+                            if (contador == 0){
+                                completed = true;
+                            }
                         }
                     }
                 }else{
@@ -101,10 +111,14 @@ public class Main {
 
             }
 
-            System.out.println("Você perdeu :( ");
-            System.out.println("Deseje jogar novamente? y/n");
-            validate = call.next();
-
+                if (completed){
+                    System.out.println("Parabéns voce ganhou :), a palavra era: " + word);
+                    System.out.println("Deseje jogar novamente? y/n");
+                }else{
+                    System.out.println("Você perdeu :( , a palavra era: " +  word);
+                    System.out.println("Deseje jogar novamente? y/n");
+                }
+                    validate = call.next();
 
         }while (validate.equals("y"));
 
